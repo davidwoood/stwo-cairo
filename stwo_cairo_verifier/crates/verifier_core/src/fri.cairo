@@ -329,7 +329,7 @@ struct FriInnerLayerVerifier {
 
 #[generate_trait]
 impl FriInnerLayerVerifierImpl of FriInnerLayerVerifierTrait {
-    /// Verifies the layer's Merkle decommitment and returns the the folded queries and query evals.
+    /// Verifies the layer's Merkle decommitment and returns the folded queries and query evals.
     ///
     /// # Panics
     ///
